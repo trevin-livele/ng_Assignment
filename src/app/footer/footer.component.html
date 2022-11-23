@@ -1,0 +1,11 @@
+<footer class="footer" *ngFor="let footer of footer">
+
+    <a class="footerlogo">{{footer.email}}</a>
+    <a class="footerlogo">{{footer.date | date}}</a>
+
+    <section class="disclaimer">
+      <i class="testo_disclaimer">{{footer.collegeName}}</i>
+      <i class="testo_disclaimer">{{footer.campusName}}</i>
+    </section>
+  </footer>
+  

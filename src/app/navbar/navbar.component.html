@@ -1,0 +1,12 @@
+<header class="navbar" >
+ <div *ngFor="let header of header">
+  <div class="nav-logo">{{header.assignment}}</div>
+  <div class="nav-logo">{{header.fullName}}</div>
+
+  <nav class="navigation">
+  <ul class="nav-items">
+    <li class="nav-links"> <a href="">{{header.country}}</a></li>
+  </ul>
+  </nav>
+ </div>
+  </header>

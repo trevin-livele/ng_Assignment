@@ -1,0 +1,31 @@
+<form #assignmentForm="ngForm">
+
+  <div class="bg">
+    <div>
+      <input class="textarea is-touched" #username="ngModel" [class.is-touched]="username.touched" name="username" [(ngModel)]="contentModel.username"/>
+      <br />
+      <label for="userId" class="label">Username</label>
+    </div>
+    <div>
+      <input class="textarea" name="campus" [(ngModel)]="contentModel.campus" />
+      <br />
+      <label for="userId" class="label">Campus</label>
+    </div>
+    <div>
+      <input class="textarea" name="department" [(ngModel)]="contentModel.department"/>
+      <br />
+      <label for="userId" class="label">Department</label>
+    </div>
+    <div class="s">
+      <input class="textarea" name="age" [(ngModel)]="contentModel.age" />
+      <br />
+      <label for="pwd" class="label">Age</label>
+    </div>
+    <div class="btnContainer">
+      <button class="btn">Reset</button>
+      <button class="btn">Submit</button>
+      <br />
+    </div>
+  </div>
+  
+</form>

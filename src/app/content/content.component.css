@@ -1,0 +1,60 @@
+.bg {
+    padding-top: 4rem;
+    background-color: #fcffff;
+    text-align: center;
+    display: block;
+    justify-items: center;
+    margin-bottom: 350px;
+  }
+  .label {
+    position: absolute;
+    transform: translate(-9.8rem, -3.8rem);
+    font-size: 1rem;
+    padding: 0 5px;
+    background-color: #fcffff;
+  }
+  .textarea {
+    position: relative; 
+    border-radius: 0.4rem;
+    margin-top: 2rem;
+    background-color: #fcffff;
+    border: lightgreen 0.1rem solid;
+    width: 20rem;
+    height: 3rem;
+    padding: 0rem 1rem;
+    font-size: 1.4rem;
+  }
+  .errorTextarea {
+    border-color: red;
+  }
+  .textarea:focus {
+    outline: none;
+  }
+  .btn {
+    width: 6rem;
+    height: 2rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    position: relative; 
+    transition: all 0.3s ease-in-out; 
+  }
+  .errorBtn {
+    background-color: #ff3838;
+  }
+  .moveRight {
+    left: -6rem;
+  }
+  .moveleft {
+    left: 6rem;
+  }
+  .btnContainer {
+    margin: 0 auto;
+    width: 20rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
